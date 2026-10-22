@@ -1,0 +1,7 @@
+# Market data is downloaded at run time and not redistributed
+skills/backtest-sanity-checker/examples/sp500_prices.csv
+skills/backtest-sanity-checker/examples/trades_*.csv
+__pycache__/
+*.pyc
+.DS_Store
+edgar/
