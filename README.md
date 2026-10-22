@@ -12,7 +12,7 @@ Skills follow the open [Agent Skills](https://agentskills.io/specification) form
 ### Real example: one missing line, +126% becomes +25,281%
 We ran the Backtest Sanity Checker on a simple S&P 500 moving-average rule using 10 years of FRED data. A classic missing `.shift(1)` inflated the result from **+125.67% to +25,280.93%**. The checker flagged it as **RED** from the trade log alone: 207 of 208 entries were filled at the *previous* day's close. [See the worked example →](skills/backtest-sanity-checker/examples)
 
-## Install (2 minutes)
+## Install
 
 **Claude Code / Cursor / Codex:** copy the skill folders into your skills directory.
 ```bash
